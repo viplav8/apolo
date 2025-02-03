@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgive Me, Ayu ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Heart Background -->
+    <canvas id="heartCanvas"></canvas>
+
+    <div class="content">
+        <h1 class="apology-text">Please forgive me, Ayu 💔</h1>
+
+        <h2 class="poem">
+            तुम्हारी आँखों में है चाँदनी रातों की चमक,<br>
+            तुम्हारी मुस्कान में है फूलों की महक।<br>
+            तुम्हारा चेहरा जैसे खिला हुआ गुलाब,<br>
+            मेरी दुनिया की सबसे हसीन किताब। ❤️
+        </h2>
+
+        <!-- Slideshow Container -->
+        <div class="slider-container">
+            <img id="slider-image" src="images/1.jpg" alt="Her Image">
+        </div>
+
+        <button class="forgive-btn" onclick="showPopup()">Please click to forgive me</button>
+
+        <!-- Popup Box -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <p>Thank you baby ❤️</p>
+                <button onclick="closePopup()">Close</button>
+            </div>
+        </div>
+
+        <!-- Hidden Gift Button (Bottom-Right) -->
+        <button id="hidden-gift-btn" class="hidden-gift-btn" onclick="showGiftPopup()">?</button>
+
+        <!-- Gift Popup -->
+        <div id="gift-popup" class="popup">
+            <div class="popup-content">
+                <p>Free 3 images of Drago 🐉</p>
+                <button onclick="closeGiftPopup()">Close</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
